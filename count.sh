@@ -11,7 +11,7 @@ if  [ !  -f  $filename  ];then
 clear
 getfile
 echo "converting Upper-case to Lower-case"
-tr  '[aA-Z]'  '[a-z]' <$filename
+tr  '[A-Z]'  '[a-z]' <$filename
 echo "the number of lines is:"
 wc -l <$filename
 echo "the number of words are:"
